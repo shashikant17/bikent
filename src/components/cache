@@ -1,0 +1,21 @@
+    <div className="flex flex-row justify-evenly ">
+
+          <div className="flex flex-col  justify-evenly bg-[#fcb449] p-3 text-xl rounded-lg">
+            <div>ETH due:-</div>
+            <div> 1.1  ETH  </div>
+          </div>
+
+          <div className="flex flex-col  justify-evenly bg-[#fcb449] p-3 text-xl rounded-lg">
+            <div>Hours Rented </div>
+            <div> 123 </div>
+          </div>
+
+          <div className="flex flex-col justify-evenly  p-3 text-xl rounded-lg">
+            <button onClick={onPayingDue} className="bg-red-700 text-black m-2 p-2 font-semibold" >PAY DUE WITH ETHEREUM</button>
+         {duerate ===0?   <button  onClick={onCheckOut} className="rounded-full bg-black m-2 text-white p-2">CHECK OUT</button> :  <button className="rounded-full bg-black m-2 text-white p-2 cursor-not-allowed">CHECK OUT</button> }
+          </div>
+          x
+        </div>
+        await contract.addBike(0.003,1,'https://m.media-amazon.com/images/I/715wCxNPK4L._SX425_.jpg');
+        await contract.addBike(0.03,2,'https://m.media-amazon.com/images/I/61IlCkBgMpL._SX425_.jpg');
+        await contract.addBike(0.02,3,'https://www.herocycles.com/admin/public/uploads/bestseller/60223dea3576c5m0f8TdEWI.png');
